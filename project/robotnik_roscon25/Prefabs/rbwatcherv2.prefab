@@ -1,0 +1,2002 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "rbwatcherv2",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15086774198968369810
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5641162779521558650
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4148442706133864655,
+                "Child Entity Order": [
+                    "Instance_[426470748133]/ContainerEntity"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16717085337381704143
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 6517247784915935472
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10676702769994467625
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14801723032932989480
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4648153240202989287
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2540088132677479727
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1636371655960459081,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[426470748133]": {
+            "Source": "Assets/Importer/rbwatcher.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/EditorDisabledCompositionComponent",
+                    "value": {
+                        "$type": "EditorDisabledCompositionComponent",
+                        "Id": 7990471599698469323,
+                        "DisabledComponents": []
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/EditorEntityIconComponent",
+                    "value": {
+                        "$type": "EditorEntityIconComponent",
+                        "Id": 14063774639140549573,
+                        "EntityIconAssetId": {
+                            "guid": "{00000000-0000-0000-0000-000000000000}",
+                            "subId": 0
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/EditorEntitySortComponent",
+                    "value": {
+                        "$type": "EditorEntitySortComponent",
+                        "Id": 10911141053443556646,
+                        "Child Entity Order": [
+                            "Entity_[2262798711006]"
+                        ]
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/EditorInspectorComponent",
+                    "value": {
+                        "$type": "EditorInspectorComponent",
+                        "Id": 14207199046370577329,
+                        "ComponentOrderEntryArray": []
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/EditorOnlyEntityComponent",
+                    "value": {
+                        "$type": "EditorOnlyEntityComponent",
+                        "Id": 104458613158374110,
+                        "IsEditorOnly": false
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/EditorPendingCompositionComponent",
+                    "value": {
+                        "$type": "EditorPendingCompositionComponent",
+                        "Id": 14943896597190915568,
+                        "PendingComponents": []
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "EditorRigidBodyComponent": {
+                            "$type": "EditorRigidBodyComponent",
+                            "Id": 10184600158952307829,
+                            "Configuration": {
+                                "name": "",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "orientation": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "entityId": "",
+                                "startSimulationEnabled": true,
+                                "Kinematic": false,
+                                "Initial linear velocity": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Initial angular velocity": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Linear damping": 0.05000000074505806,
+                                "Angular damping": 0.15000000596046448,
+                                "Sleep threshold": 0.004999999888241291,
+                                "Start Asleep": false,
+                                "Interpolate Motion": false,
+                                "Gravity Enabled": true,
+                                "CCD Enabled": false,
+                                "Compute Mass": true,
+                                "Lock Linear X": false,
+                                "Lock Linear Y": false,
+                                "Lock Linear Z": false,
+                                "Lock Angular X": false,
+                                "Lock Angular Y": false,
+                                "Lock Angular Z": false,
+                                "Mass": 1.0,
+                                "Compute COM": true,
+                                "Centre of mass offset": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Compute inertia": true,
+                                "Inertia tensor": [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Maximum Angular Velocity": 100.0,
+                                "Include All Shapes In Mass": false,
+                                "CCD Min Advance": 0.15000000596046448,
+                                "CCD Friction": false,
+                                "Open PhysX Configuration": false,
+                                "Debug Draw Center of Mass": false
+                            },
+                            "PhysXSpecificConfiguration": {
+                                "SolverPositionIterations": 4,
+                                "SolverVelocityIterations": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2387352762590]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/0",
+                    "value": {
+                        "ComponentId": 8977685695451618094,
+                        "SortIndex": 0
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/1",
+                    "value": {
+                        "ComponentId": 13251066096668084236,
+                        "SortIndex": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/2",
+                    "value": {
+                        "ComponentId": 17550875659464453188,
+                        "SortIndex": 2
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/3",
+                    "value": {
+                        "ComponentId": 4769180773220857538,
+                        "SortIndex": 3
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/4",
+                    "value": {
+                        "ComponentId": 3576027439752139611,
+                        "SortIndex": 4
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/5",
+                    "value": {
+                        "ComponentId": 6290978965255896705,
+                        "SortIndex": 5
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/6",
+                    "value": {
+                        "ComponentId": 12076864287583659249,
+                        "SortIndex": 6
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/7",
+                    "value": {
+                        "ComponentId": 8879627580494485951,
+                        "SortIndex": 7
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/8",
+                    "value": {
+                        "ComponentId": 4157283534474212334,
+                        "SortIndex": 8
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2262798711006]/Components/EditorInspectorComponent/ComponentOrderEntryArray/9",
+                    "value": {
+                        "ComponentId": 10184600158952307829,
+                        "SortIndex": 9
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2267093678302]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
+                    "value": 300.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2267093678302]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Stiffness",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2267093678302]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
+                    "value": 40.0
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2267093678302]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2271388645598]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2267093678302]/Components/WheelControllerComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 17953235076398128489,
+                        "m_template": {
+                            "$type": "WheelControllerComponent",
+                            "Id": 0,
+                            "SteeringEntity": "",
+                            "SteeringScale": 1.0
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2271388645598]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2275683612894]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2279978580190]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2275683612894]/Components/EditorMeshColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "DefaultMaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2279978580190]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2279978580190]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2279978580190]/Components/EditorMaterialComponent/Controller/Configuration/materials/1/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2378762827998]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2267093678302]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/2",
+                    "value": "Entity_[2292863482078]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/3",
+                    "value": "Entity_[2400237664478]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/4",
+                    "value": "Entity_[2288568514782]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/5",
+                    "value": "Entity_[2318633285854]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/6",
+                    "value": "Entity_[2426007468254]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/7",
+                    "value": "Entity_[2417417533662]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/8",
+                    "value": "Entity_[2352993024222]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/9",
+                    "value": "Entity_[2305748383966]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/10",
+                    "value": "Entity_[2365877926110]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorEntitySortComponent/Child Entity Order/11",
+                    "value": "Entity_[2275683612894]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2284273547486]/Components/EditorMeshColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "DefaultMaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2288568514782]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2288568514782]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2288568514782]/Components/EditorMaterialComponent/Controller/Configuration/materials/1/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2292863482078]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
+                    "value": 300.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2292863482078]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Stiffness",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2292863482078]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
+                    "value": 40.0
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2292863482078]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2297158449374]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2292863482078]/Components/WheelControllerComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 9087329552592135096,
+                        "m_template": {
+                            "$type": "WheelControllerComponent",
+                            "Id": 0,
+                            "SteeringEntity": "",
+                            "SteeringScale": 1.0
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2297158449374]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2305748383966]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "EditorMeshColliderComponent": {
+                            "$type": "EditorMeshColliderComponent",
+                            "Id": 3613906008382494554,
+                            "ColliderConfiguration": {
+                                "CollisionLayer": {
+                                    "Index": 0
+                                },
+                                "CollisionGroupId": {
+                                    "GroupId": "{E388F87A-154C-4106-AA78-3652C9134007}"
+                                },
+                                "Visible": false,
+                                "Trigger": false,
+                                "Simulated": true,
+                                "DummySimulated": false,
+                                "InSceneQueries": true,
+                                "Exclusive": true,
+                                "Position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "MaterialSlots": {
+                                    "Slots": [
+                                        {
+                                            "Name": "DefaultMaterial",
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                    "subId": 0
+                                                },
+                                                "loadBehavior": "QueueLoad",
+                                                "assetHint": ""
+                                            }
+                                        }
+                                    ]
+                                },
+                                "propertyVisibilityFlags": 255,
+                                "ColliderTag": "",
+                                "RestOffset": 0.0,
+                                "ContactOffset": 0.019999999552965164
+                            },
+                            "ShapeConfiguration": {
+                                "PhysicsAsset": {
+                                    "Asset": {
+                                        "assetId": {
+                                            "guid": "{EDEF76EC-FF0E-5C49-9C6A-509DD87B13D4}",
+                                            "subId": 2055443983
+                                        },
+                                        "loadBehavior": "QueueLoad",
+                                        "assetHint": "assets/urdfimporter/2868849263_rbwatcher_abs/helios_16p.stl.pxmesh"
+                                    },
+                                    "Configuration": {
+                                        "Scale": [
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "PhysicsAsset": {
+                                            "assetId": {
+                                                "guid": "{EDEF76EC-FF0E-5C49-9C6A-509DD87B13D4}",
+                                                "subId": 2055443983
+                                            },
+                                            "loadBehavior": "QueueLoad",
+                                            "assetHint": "assets/urdfimporter/2868849263_rbwatcher_abs/helios_16p.stl.pxmesh"
+                                        },
+                                        "AssetScale": [
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "UseMaterialsFromAsset": false,
+                                        "SubdivisionLevel": 4
+                                    }
+                                },
+                                "HasNonUniformScale": false,
+                                "SubdivisionLevel": 4
+                            },
+                            "DebugDrawSettings": {
+                                "LocallyEnabled": true
+                            },
+                            "ComponentMode": {},
+                            "HasNonUniformScale": false
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2305748383966]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2310043351262]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2305748383966]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2456072239326]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[2305748383966]/Components/EditorMeshColliderComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2310043351262]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2310043351262]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2310043351262]/Components/EditorMaterialComponent/Controller/Configuration/materials/1/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2395942697182]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/0",
+                    "value": {
+                        "ComponentId": 9808436876580669763,
+                        "SortIndex": 0
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/1",
+                    "value": {
+                        "ComponentId": 12870935159021882045,
+                        "SortIndex": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/2",
+                    "value": {
+                        "ComponentId": 9346339476958696351,
+                        "SortIndex": 2
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/3",
+                    "value": {
+                        "ComponentId": 15793210120860257051,
+                        "SortIndex": 3
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/4",
+                    "value": {
+                        "ComponentId": 8942099102257503379,
+                        "SortIndex": 4
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/5",
+                    "value": {
+                        "ComponentId": 5402536331014791013,
+                        "SortIndex": 5
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/6",
+                    "value": {
+                        "ComponentId": 4958045529313725828,
+                        "SortIndex": 6
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/7",
+                    "value": {
+                        "ComponentId": 6275727939884914403,
+                        "SortIndex": 7
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/8",
+                    "value": {
+                        "ComponentId": 3725507162752853118,
+                        "SortIndex": 8
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/9",
+                    "value": {
+                        "ComponentId": 17973769692129468131,
+                        "SortIndex": 9
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/10",
+                    "value": {
+                        "ComponentId": 9174073311686387613,
+                        "SortIndex": 10
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2314338318558]/Components/EditorInspectorComponent/ComponentOrderEntryArray/11",
+                    "value": {
+                        "ComponentId": 13956825120152147783,
+                        "SortIndex": 11
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2322928253150]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2348698056926]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2322928253150]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2314338318558]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2322928253150]/Components/EditorEntitySortComponent/Child Entity Order/2",
+                    "value": "Entity_[2451777272030]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2322928253150]/Components/EditorEntitySortComponent/Child Entity Order/3",
+                    "value": "Entity_[2447482304734]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2322928253150]/Components/EditorEntitySortComponent/Child Entity Order/4",
+                    "value": "Entity_[2327223220446]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2327223220446]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "EditorBoxShapeComponent": {
+                            "$type": "EditorBoxShapeComponent",
+                            "Id": 16811538422759771666,
+                            "Visible": true,
+                            "GameView": false,
+                            "DisplayFilled": true,
+                            "ShapeColor": [
+                                1.0,
+                                1.0,
+                                0.7799999713897705,
+                                0.4000000059604645
+                            ],
+                            "BoxShape": {
+                                "Configuration": {
+                                    "DrawColor": [
+                                        1.0,
+                                        1.0,
+                                        0.7799999713897705,
+                                        0.4000000059604645
+                                    ],
+                                    "IsFilled": true,
+                                    "Dimensions": [
+                                        0.0010000000474974513,
+                                        0.0010000000474974513,
+                                        0.0010000000474974513
+                                    ],
+                                    "TranslationOffset": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ]
+                                }
+                            },
+                            "ComponentMode": {}
+                        },
+                        "EditorFixedJointComponent": {
+                            "$type": "EditorFixedJointComponent",
+                            "Id": 5525883636003674061,
+                            "Configuration": {
+                                "Local Position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Local Rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Fix Joint Location": false,
+                                "Parent Entity": "Entity_[2365877926110]",
+                                "Child Entity": "Entity_[2331518187742]",
+                                "Breakable": false,
+                                "Maximum Force": 1.0,
+                                "Maximum Torque": 1.0,
+                                "Display Debug": "Selected",
+                                "Select Lead on Snap": true,
+                                "Self Collide": false
+                            },
+                            "Component Mode": {}
+                        },
+                        "EditorRigidBodyComponent": {
+                            "$type": "EditorRigidBodyComponent",
+                            "Id": 12051238766591015325,
+                            "Configuration": {
+                                "name": "",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "orientation": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "entityId": "",
+                                "startSimulationEnabled": true,
+                                "Kinematic": false,
+                                "Initial linear velocity": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Initial angular velocity": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Linear damping": 0.05000000074505806,
+                                "Angular damping": 0.15000000596046448,
+                                "Sleep threshold": 0.004999999888241291,
+                                "Start Asleep": false,
+                                "Interpolate Motion": false,
+                                "Gravity Enabled": true,
+                                "CCD Enabled": false,
+                                "Compute Mass": true,
+                                "Lock Linear X": true,
+                                "Lock Linear Y": true,
+                                "Lock Linear Z": true,
+                                "Lock Angular X": true,
+                                "Lock Angular Y": true,
+                                "Lock Angular Z": true,
+                                "Mass": 1.0,
+                                "Compute COM": true,
+                                "Centre of mass offset": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Compute inertia": true,
+                                "Inertia tensor": [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "Maximum Angular Velocity": 100.0,
+                                "Include All Shapes In Mass": false,
+                                "CCD Min Advance": 0.15000000596046448,
+                                "CCD Friction": false,
+                                "Open PhysX Configuration": false,
+                                "Debug Draw Center of Mass": false
+                            },
+                            "PhysXSpecificConfiguration": {
+                                "SolverPositionIterations": 4,
+                                "SolverVelocityIterations": 1
+                            }
+                        },
+                        "EditorShapeColliderComponent": {
+                            "$type": "EditorShapeColliderComponent",
+                            "Id": 1352902195808195846,
+                            "ColliderConfiguration": {
+                                "CollisionLayer": {
+                                    "Index": 0
+                                },
+                                "CollisionGroupId": {
+                                    "GroupId": "{00000000-0000-0000-0000-000000000000}"
+                                },
+                                "Visible": false,
+                                "Trigger": false,
+                                "Simulated": true,
+                                "DummySimulated": false,
+                                "InSceneQueries": true,
+                                "Exclusive": true,
+                                "Position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ],
+                                "MaterialSlots": {
+                                    "Slots": [
+                                        {
+                                            "Name": "Entire object",
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{00000000-0000-0000-0000-000000000000}",
+                                                    "subId": 0
+                                                },
+                                                "loadBehavior": "QueueLoad",
+                                                "assetHint": ""
+                                            }
+                                        }
+                                    ]
+                                },
+                                "propertyVisibilityFlags": 239,
+                                "ColliderTag": "",
+                                "RestOffset": 0.0,
+                                "ContactOffset": 0.019999999552965164
+                            },
+                            "DebugDrawSettings": {
+                                "LocallyEnabled": true
+                            },
+                            "ShapeConfigs": [
+                                {
+                                    "$type": "BoxShapeConfiguration",
+                                    "Scale": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Configuration": [
+                                        0.0010000000474974513,
+                                        0.0010000000474974513,
+                                        0.0010000000474974513
+                                    ]
+                                }
+                            ],
+                            "SubdivisionCount": 16,
+                            "SingleSided": false
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/0",
+                    "value": {
+                        "ComponentId": 4712949016952774010,
+                        "SortIndex": 0
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/1",
+                    "value": {
+                        "ComponentId": 2399627193005109198,
+                        "SortIndex": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/2",
+                    "value": {
+                        "ComponentId": 11333602294072067311,
+                        "SortIndex": 2
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/3",
+                    "value": {
+                        "ComponentId": 14912226511932530606,
+                        "SortIndex": 3
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/4",
+                    "value": {
+                        "ComponentId": 6563993595776561962,
+                        "SortIndex": 4
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/5",
+                    "value": {
+                        "ComponentId": 14840659034498700970,
+                        "SortIndex": 5
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/6",
+                    "value": {
+                        "ComponentId": 2215916166103320627,
+                        "SortIndex": 6
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/7",
+                    "value": {
+                        "ComponentId": 11046966960112330841,
+                        "SortIndex": 7
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/8",
+                    "value": {
+                        "ComponentId": 16466145093469670886,
+                        "SortIndex": 8
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/9",
+                    "value": {
+                        "ComponentId": 3699947079607837592,
+                        "SortIndex": 9
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/10",
+                    "value": {
+                        "ComponentId": 10052234731598960650,
+                        "SortIndex": 10
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/EditorInspectorComponent/ComponentOrderEntryArray/11",
+                    "value": {
+                        "ComponentId": 9320772476431048145,
+                        "SortIndex": 11
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2331518187742]/Components/ROS2ImuSensorComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 3699947079607837592,
+                        "m_template": {
+                            "$type": "ROS2ImuSensorComponent",
+                            "Id": 0,
+                            "SensorConfiguration": {
+                                "Visualize": true,
+                                "Publishing Enabled": true,
+                                "Frequency (HZ)": 20.0,
+                                "Publishers": {
+                                    "sensor_msgs::msg::Imu": {
+                                        "Type": "sensor_msgs::msg::Imu",
+                                        "Topic": "imu",
+                                        "QoS": {
+                                            "Reliability": 2,
+                                            "Durability": 2,
+                                            "Depth": 5
+                                        }
+                                    }
+                                }
+                            },
+                            "imuSensorConfiguration": {
+                                "FilterSize": 10,
+                                "IncludeGravity": true,
+                                "AbsoluteRotation": true,
+                                "AccelerationVariance": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "AngularVelocityVariance": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "OrientationVariance": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2335813155038]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2374467860702]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2340108122334]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2344403089630]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2340108122334]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2357287991518]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2340108122334]/Components/EditorMeshColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "DefaultMaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2344403089630]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2344403089630]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2344403089630]/Components/EditorMaterialComponent/Controller/Configuration/materials/1/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2348698056926]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2438892370142]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2352993024222]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2322928253150]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2357287991518]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Articulation Joint Type",
+                    "value": 0
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2357287991518]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2434597402846]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2357287991518]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2361582958814]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2357287991518]/Components/EditorMeshColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "DefaultMaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2361582958814]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2361582958814]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2361582958814]/Components/EditorMaterialComponent/Controller/Configuration/materials/1/Value/MaterialAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2370172893406]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2331518187742]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/0",
+                    "value": {
+                        "ComponentId": 9120074153862161276,
+                        "SortIndex": 0
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/1",
+                    "value": {
+                        "ComponentId": 13313207806645148785,
+                        "SortIndex": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/2",
+                    "value": {
+                        "ComponentId": 1276576989089087887,
+                        "SortIndex": 2
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/3",
+                    "value": {
+                        "ComponentId": 7255398701401904187,
+                        "SortIndex": 3
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/4",
+                    "value": {
+                        "ComponentId": 2288929875681210803,
+                        "SortIndex": 4
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/5",
+                    "value": {
+                        "ComponentId": 15520536791291121701,
+                        "SortIndex": 5
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/6",
+                    "value": {
+                        "ComponentId": 11105602453013029702,
+                        "SortIndex": 6
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/7",
+                    "value": {
+                        "ComponentId": 5722846353470187559,
+                        "SortIndex": 7
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/8",
+                    "value": {
+                        "ComponentId": 12598776005481081704,
+                        "SortIndex": 8
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/9",
+                    "value": {
+                        "ComponentId": 11505284394908280657,
+                        "SortIndex": 9
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/10",
+                    "value": {
+                        "ComponentId": 12835442386962194064,
+                        "SortIndex": 10
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/11",
+                    "value": {
+                        "ComponentId": 11906922126504738789,
+                        "SortIndex": 11
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2365877926110]/Components/EditorInspectorComponent/ComponentOrderEntryArray/12",
+                    "value": {
+                        "ComponentId": 2111719905744304538,
+                        "SortIndex": 12
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2370172893406]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Articulation Joint Type",
+                    "value": 0
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/0",
+                    "value": {
+                        "ComponentId": 16720845507600062625,
+                        "SortIndex": 0
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/1",
+                    "value": {
+                        "ComponentId": 16012382699737401348,
+                        "SortIndex": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/2",
+                    "value": {
+                        "ComponentId": 8664248392286714339,
+                        "SortIndex": 2
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/3",
+                    "value": {
+                        "ComponentId": 7191463932574443337,
+                        "SortIndex": 3
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/4",
+                    "value": {
+                        "ComponentId": 14059857154670451656,
+                        "SortIndex": 4
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/5",
+                    "value": {
+                        "ComponentId": 13410447831883431147,
+                        "SortIndex": 5
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/6",
+                    "value": {
+                        "ComponentId": 16760676200187050212,
+                        "SortIndex": 6
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/7",
+                    "value": {
+                        "ComponentId": 9060714388208549863,
+                        "SortIndex": 7
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/8",
+                    "value": {
+                        "ComponentId": 1118009609593396271,
+                        "SortIndex": 8
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/9",
+                    "value": {
+                        "ComponentId": 17024940739607374599,
+                        "SortIndex": 9
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/10",
+                    "value": {
+                        "ComponentId": 16591515894017815463,
+                        "SortIndex": 10
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/EditorInspectorComponent/ComponentOrderEntryArray/11",
+                    "value": {
+                        "ComponentId": 13973476587072543345,
+                        "SortIndex": 11
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2374467860702]/Components/ROS2CameraSensorEditorComponent",
+                    "value": {
+                        "$type": "ROS2CameraSensorEditorComponent",
+                        "Id": 17024940739607374599,
+                        "CameraSensorConfig": {
+                            "VerticalFieldOfViewDeg": 39.0,
+                            "Width": 1920,
+                            "Height": 1080,
+                            "Depth": false,
+                            "Color": true,
+                            "ClipNear": 0.10000000149011612,
+                            "ClipFar": 100.0
+                        },
+                        "SensorConfig": {
+                            "Visualize": true,
+                            "Publishing Enabled": true,
+                            "Frequency (HZ)": 10.0,
+                            "Publishers": {
+                                "Color Camera Info": {
+                                    "Type": "sensor_msgs::msg::CameraInfo",
+                                    "Topic": "top_color_camera_info",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                },
+                                "Color Image": {
+                                    "Type": "sensor_msgs::msg::Image",
+                                    "Topic": "topcamera_image_depth",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                },
+                                "Depth Camera Info": {
+                                    "Type": "sensor_msgs::msg::CameraInfo",
+                                    "Topic": "top_depth_camera_info",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                },
+                                "Depth Image": {
+                                    "Type": "sensor_msgs::msg::Image",
+                                    "Topic": "top_camera_image_depth",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Local Rotation/2",
+                    "value": 90.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
+                    "value": 300.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Stiffness",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
+                    "value": 40.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorColliderComponent/ColliderConfiguration/Rotation/3",
+                    "value": 0.7071067094802856
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/CookedData",
+                    "value": "TlhTAUNWWE0OAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABeg2w/Fu/DPgAAAD/zBDU/8wQ1PwAAAD8U78M+X4NsPwAAAD8uvTuzAACAPwAAAD8X78O+XoNsPwAAAD/0BDW/8gQ1PwAAAD9fg2y/E+/DPgAAAD8AAIC/Lr27swAAAD9eg2y/GO/DvgAAAD/yBDW/9AQ1vwAAAD8R78O+X4NsvwAAAD/jzQw0AACAvwAAAD8a78M+XoNsvwAAAD/1BDU/8QQ1vwAAAD9gg2w/EO/DvgAAAD8AAIA/AAAAAAAAAD8U78M+X4NsPwAAAL8uvTuzAACAPwAAAL/zBDU/8wQ1PwAAAL8X78O+XoNsPwAAAL/0BDW/8gQ1PwAAAL8a78M+XoNsvwAAAL/1BDU/8QQ1vwAAAL/jzQw0AACAvwAAAL9gg2w/EO/DvgAAAL8AAIA/AAAAAAAAAL9fg2y/E+/DPgAAAL8AAIC/Lr27swAAAL8R78O+X4NsvwAAAL/yBDW/9AQ1vwAAAL9eg2w/Fu/DPgAAAL9eg2y/GO/DvgAAAL8AAAAAAAAAAAAAgD8AAAC/AAAQEL3FRz6/FHs/AAAAAL8Ue78QAAQK2zkOPzLbVD8AAAAAwBR7vxQABAnbOQ6/MNtUPwAAAAC+FHu/GAAEDMbFR76/FHs/AAAAAL8Ue78cAAQM3jkOPy/bVL8AAAAAvxR7vyAABAXGxUc+vxR7vwAAAAC/FHu/JAAEA78Uez+4xUe+AAAAAL8Ue78oAAQHMttUP9k5Dr8AAAAAvhR7vywABAW/FHu/vMVHPgAAAAC/FHu/MAAEDjDbVL/ZOQ4/AAAAALwUe780AAQNvcVHvr8Ue78AAAAAvxR7vzgABALZOQ6/M9tUvwAAAAC+FHu/PAAEATLbVD/aOQ4/AAAAAL8Ue79AAAQIvxR7P8bFRz4AAAAAvxR7v0QABAcv21S/2zkOvwAAAAC9FHu/SAAEAb0Ue7/GxUe+AAAAAL4Ue79MAAQAAAAAAAAAAAAAAIC/AAAAv1AAEAAAAQIDBAUGBwgJCgsMDQ4PEBEDAhACARITFAUEEwQDERUWDQwVDAsXGBkPDhgODRYaGwcGGgYFFBwXCwocCgkdHhIBAB4ADxkfHQkIHwgHGx8bGhQTERASHhkYFhUXHB0ADQACAAEABAADAAoACQAQAA8ADAALAAYABQAIAAcADgERAQQBAgINAhEDEQMKAwQEEQURBQgFBgYLBhEHEQcOBwgIEQkRCRAJCgoRCxELDAwPDBENEQ0ODhEPEQ8QEBEADQ4AAg0AAQIAAQQAAwQAAwoACQoACRAADxAADA8ACwwABgsABQYABQgABwgABw4BAhEBBBECDREDBBEDChEFBhEFCBEGCxEHCBEHDhEJChEJEBELDBEMDxENDhEPEBEAAAAAAACAvwAAgL8AAAC/AACAPwAAgD8AAAA/Fe9DQAgjgD+kfSMy+3J4saR9IzIII4A/vbu/o/tyeLG9u7+jX/a+P7TqrjJFV7yydT2nrwAAgL8AAIC/AAAAP9pMcT87zZM+O82TPg=="
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Type",
+                    "value": 1
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2378762827998]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2383057795294]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2378762827998]/Components/WheelControllerComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 6057777511970179401,
+                        "m_template": {
+                            "$type": "WheelControllerComponent",
+                            "Id": 0,
+                            "SteeringEntity": "",
+                            "SteeringScale": 1.0
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2383057795294]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2387352762590]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2391647729886]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2387352762590]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2284273547486]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2387352762590]/Components/ROS2RobotControlComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 5114754833185036451,
+                        "m_template": {
+                            "$type": "ROS2RobotControlComponent",
+                            "Id": 0,
+                            "ControlConfiguration": {
+                                "Steering": 0
+                            },
+                            "SubscriberConfiguration": {
+                                "Type": "std_msgs::msg::Empty",
+                                "Topic": "cmd_vel",
+                                "QoS": {
+                                    "Reliability": 2,
+                                    "Durability": 2,
+                                    "Depth": 5
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2387352762590]/Components/SkidSteeringControlComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 10565553705905301075,
+                        "m_template": {
+                            "$type": "SkidSteeringControlComponent",
+                            "Id": 0
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2387352762590]/Components/SkidSteeringModelComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 15398792187701638149,
+                        "m_template": {
+                            "$type": "SkidSteeringModelComponent",
+                            "Id": 0,
+                            "VehicleConfiguration": {
+                                "AxlesConfigurations": [
+                                    {
+                                        "AxleTag": "front",
+                                        "AxleWheels": [
+                                            "Entity_[2400237664478]",
+                                            "Entity_[2378762827998]"
+                                        ],
+                                        "WheelRadius": 0.10999999940395357,
+                                        "IsSteering": true,
+                                        "IsDrive": true
+                                    },
+                                    {
+                                        "AxleTag": "back",
+                                        "AxleWheels": [
+                                            "Entity_[2292863482078]",
+                                            "Entity_[2267093678302]"
+                                        ],
+                                        "WheelRadius": 0.10999999940395357,
+                                        "IsSteering": true,
+                                        "IsDrive": true
+                                    }
+                                ],
+                                "Track": 0.47099998593330383,
+                                "Wheelbase": 0.44999998807907104
+                            },
+                            "ManualControl": true,
+                            "DriveModel": {
+                                "Limits": {
+                                    "LinearLimit": 1.0,
+                                    "AngularLimit": 2.0,
+                                    "LinearAcceleration": 2.0,
+                                    "AngularAcceleration": 4.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2391647729886]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/0",
+                    "value": {
+                        "ComponentId": 863836832220761314,
+                        "SortIndex": 0
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/1",
+                    "value": {
+                        "ComponentId": 4982684061154562093,
+                        "SortIndex": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/2",
+                    "value": {
+                        "ComponentId": 16074399785812397766,
+                        "SortIndex": 2
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/3",
+                    "value": {
+                        "ComponentId": 8660140518609108130,
+                        "SortIndex": 3
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/4",
+                    "value": {
+                        "ComponentId": 13380106181654934480,
+                        "SortIndex": 4
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/5",
+                    "value": {
+                        "ComponentId": 16350429046185937173,
+                        "SortIndex": 5
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/6",
+                    "value": {
+                        "ComponentId": 17451257182073446523,
+                        "SortIndex": 6
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/7",
+                    "value": {
+                        "ComponentId": 7819979862968858379,
+                        "SortIndex": 7
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/8",
+                    "value": {
+                        "ComponentId": 10179762675201693053,
+                        "SortIndex": 8
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/9",
+                    "value": {
+                        "ComponentId": 17136228099783912580,
+                        "SortIndex": 9
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/10",
+                    "value": {
+                        "ComponentId": 1092512113273151592,
+                        "SortIndex": 10
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/EditorInspectorComponent/ComponentOrderEntryArray/11",
+                    "value": {
+                        "ComponentId": 1974825747251709499,
+                        "SortIndex": 11
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2395942697182]/Components/ROS2CameraSensorEditorComponent",
+                    "value": {
+                        "$type": "ROS2CameraSensorEditorComponent",
+                        "Id": 17136228099783912580,
+                        "CameraSensorConfig": {
+                            "VerticalFieldOfViewDeg": 39.0,
+                            "Width": 1920,
+                            "Height": 1080,
+                            "Depth": false,
+                            "Color": true,
+                            "ClipNear": 0.10000000149011612,
+                            "ClipFar": 100.0
+                        },
+                        "SensorConfig": {
+                            "Visualize": true,
+                            "Publishing Enabled": true,
+                            "Frequency (HZ)": 10.0,
+                            "Publishers": {
+                                "Color Camera Info": {
+                                    "Type": "sensor_msgs::msg::CameraInfo",
+                                    "Topic": "color_camera_info",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                },
+                                "Color Image": {
+                                    "Type": "sensor_msgs::msg::Image",
+                                    "Topic": "camera_image_color",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                },
+                                "Depth Camera Info": {
+                                    "Type": "sensor_msgs::msg::CameraInfo",
+                                    "Topic": "depth_camera_info",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                },
+                                "Depth Image": {
+                                    "Type": "sensor_msgs::msg::Image",
+                                    "Topic": "camera_image_depth",
+                                    "QoS": {
+                                        "Reliability": 2,
+                                        "Durability": 2,
+                                        "Depth": 5
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2400237664478]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/ForceLimit",
+                    "value": 300.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2400237664478]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Stiffness",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2400237664478]/Components/EditorArticulationLinkComponent/ArticulationConfiguration/Motor configuration/Damping",
+                    "value": 40.0
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2400237664478]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2404532631774]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2400237664478]/Components/WheelControllerComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 16122410404149344131,
+                        "m_template": {
+                            "$type": "WheelControllerComponent",
+                            "Id": 0,
+                            "SteeringEntity": "",
+                            "SteeringScale": 1.0
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2404532631774]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2408827599070]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2413122566366]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2413122566366]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2417417533662]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2340108122334]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2417417533662]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2421712500958]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2417417533662]/Components/EditorMeshColliderComponent/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "DefaultMaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2421712500958]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2426007468254]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2408827599070]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2426007468254]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[2430302435550]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2430302435550]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/ModelAsset/loadBehavior",
+                    "value": "QueueLoad"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2434597402846]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2335813155038]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2447482304734]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2443187337438]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2451777272030]/Components/EditorEntitySortComponent/Child Entity Order/0",
+                    "value": "Entity_[2301453416670]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/0",
+                    "value": {
+                        "ComponentId": 13601669818683984211,
+                        "SortIndex": 0
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/1",
+                    "value": {
+                        "ComponentId": 7785258075451124722,
+                        "SortIndex": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/2",
+                    "value": {
+                        "ComponentId": 12561696355577340010,
+                        "SortIndex": 2
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/3",
+                    "value": {
+                        "ComponentId": 9076040344226324219,
+                        "SortIndex": 3
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/4",
+                    "value": {
+                        "ComponentId": 6408031638788262128,
+                        "SortIndex": 4
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/5",
+                    "value": {
+                        "ComponentId": 7634273058847599356,
+                        "SortIndex": 5
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/6",
+                    "value": {
+                        "ComponentId": 13237610710090600601,
+                        "SortIndex": 6
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/7",
+                    "value": {
+                        "ComponentId": 6177603441990776430,
+                        "SortIndex": 7
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/8",
+                    "value": {
+                        "ComponentId": 12238656803080013083,
+                        "SortIndex": 8
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/9",
+                    "value": {
+                        "ComponentId": 5455943795690347332,
+                        "SortIndex": 9
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/10",
+                    "value": {
+                        "ComponentId": 13924396983085817717,
+                        "SortIndex": 10
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/EditorInspectorComponent/ComponentOrderEntryArray/11",
+                    "value": {
+                        "ComponentId": 17820147478223152603,
+                        "SortIndex": 11
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[2456072239326]/Components/ROS2LidarSensorComponent",
+                    "value": {
+                        "$type": "GenericComponentWrapper",
+                        "Id": 13924396983085817717,
+                        "m_template": {
+                            "$type": "ROS2LidarSensorComponent",
+                            "Id": 0,
+                            "SensorConfiguration": {
+                                "Visualize": true,
+                                "Publishing Enabled": true,
+                                "Frequency (HZ)": 10.0,
+                                "Publishers": {
+                                    "sensor_msgs::msg::PointCloud2": {
+                                        "Type": "sensor_msgs::msg::PointCloud2",
+                                        "Topic": "top_3d_cloud",
+                                        "QoS": {
+                                            "Reliability": 2,
+                                            "Durability": 2,
+                                            "Depth": 5
+                                        }
+                                    }
+                                }
+                            },
+                            "lidarCore": {
+                                "lidarConfiguration": {
+                                    "lidarModelName": "CustomLidar",
+                                    "lidarImplementation": "Scene Queries",
+                                    "LidarParameters": {
+                                        "Name": "CustomLidar",
+                                        "Layers": 16,
+                                        "Points per layer": 1800,
+                                        "Min horizontal angle": -180.0,
+                                        "Max horizontal angle": 180.0,
+                                        "Min vertical angle": -15.0,
+                                        "Max vertical angle": 15.0,
+                                        "Min range": 0.20000000298023224,
+                                        "Max range": 150.0,
+                                        "Enable Noise": true,
+                                        "Noise Parameters": {
+                                            "Angular noise standard deviation": 0.0,
+                                            "Distance noise standard deviation base": 0.009999999776482582,
+                                            "Distance noise standard deviation slope": 0.0010000000474974513
+                                        }
+                                    },
+                                    "IgnoredLayerIndices": [],
+                                    "ExcludedEntities": [],
+                                    "IsSegmentationEnabled": false,
+                                    "PointsAtMax": false
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

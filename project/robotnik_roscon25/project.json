@@ -1,0 +1,51 @@
+{
+    "project_name": "robotnik_roscon25",
+    "version": "1.0.0",
+    "project_id": "{0FC450FE-FF40-4D3F-9751-14637FC0554B}",
+    "origin": "Open 3D Engine Extras: robotnik_roscon25",
+    "license": "What license robotnik_roscon25 uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "robotnik_roscon25",
+    "summary": "A short description of robotnik_roscon25.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "robotnik_roscon25",
+        "ROS2",
+        "ROS"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "robotnik_roscon25",
+    "gem_names": [
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "Compression",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "PhysX5",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "ROS2>=3.1.0",
+        "ROS2SampleRobots",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "WarehouseAssets",
+        "robotnik_roscon25"
+    ],
+    "engine_version": "4.2.0"
+}

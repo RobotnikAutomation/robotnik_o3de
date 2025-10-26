@@ -1,0 +1,29 @@
+{
+    "gem_name": "robotnik_roscon25",
+    "display_name": "robotnik_roscon25",
+    "license": "What license robotnik_roscon25 uses goes here: i.e. Apache-2.0 or MIT",
+    "license_url": "Link to the license web site goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT",
+    "origin": "The name of the originator goes here. i.e. XYZ Inc.",
+    "origin_url": "The primary repo for robotnik_roscon25 goes here: i.e. http://www.mydomain.com",
+    "type": "",
+    "summary": "A short description of robotnik_roscon25.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "robotnik_roscon25"
+    ],
+    "platforms": [
+        "${Platforms}"
+    ],
+    "icon_path": "preview.png",
+    "requirements": "",
+    "compatible_engines": [
+        "o3de-sdk>=1.2.0",
+        "o3de>=1.2.0"
+    ],
+    "documentation_url": "",
+    "dependencies": [
+        "ROS2>=3.1.0"
+    ]
+}
