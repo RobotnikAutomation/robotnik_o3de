@@ -37,7 +37,7 @@ def generate_launch_description():
     ld.add_action(DeclareLaunchArgument("world", default_value="demo", description="world name"))
     ld.add_action(DeclareLaunchArgument("gui", default_value="true", description="enable gui"))
 
-    executable = "/home/robotnik/projects/robotnik_roscon25/build/linux/bin/profile/robotnik_roscon25.GameLauncher"
+    executable = "/home/robotnik/jlgalan_dev/o3de/robotnik_o3de/project/robotnik_roscon25/build/linux/bin/profile/robotnik_roscon25.GameLauncher"
 
     ld.add_action(
         OpaqueFunction(

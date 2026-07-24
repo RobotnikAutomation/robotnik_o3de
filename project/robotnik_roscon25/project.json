@@ -15,7 +15,7 @@
         "ROS"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de",
+    "engine": "o3de-sdk",
     "external_subdirectories": [
         "Gem"
     ],
@@ -27,25 +27,29 @@
         "Compression",
         "DebugDraw",
         "DiffuseProbeGrid",
-        "EditorPythonBindings",
         "EMotionFX",
+        "EditorPythonBindings",
         "GameState",
         "ImGui",
         "LandscapeCanvas",
         "LyShine",
         "PhysX5",
-        "PrimitiveAssets",
         "PrefabBuilder",
-        "ROS2>=3.1.0",
+        "PrimitiveAssets",
+        "ROS2",
         "ROS2SampleRobots",
+        "ROS2Controllers",
+        "ROS2SampleRobots",
+        "ROS2Sensors",
+        "SimulationInterfaces",
         "SaveData",
         "ScriptCanvasPhysics",
         "ScriptEvents",
         "StartingPointInput",
         "TextureAtlas",
-        "WhiteBox",
         "WarehouseAssets",
+        "WhiteBox",
         "robotnik_roscon25"
     ],
-    "engine_version": "4.2.0"
+    "engine_version": "2.6.0"
 }

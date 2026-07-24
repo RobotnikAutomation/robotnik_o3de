@@ -6,12 +6,14 @@
 #include <ImGuiBus.h>
 
 #include <ROS2/ROS2Bus.h>
-#include <ROS2/Utilities/ROS2Names.h>
+
 #include <ROS2/Communication/TopicConfiguration.h>
 
 #include <rclcpp/publisher.hpp>
 
 #include <geometry_msgs/msg/pose_stamped.hpp>
+
+#include <ROS2/ROS2NamesBus.h>
 
 namespace robotnik_roscon25
 {
