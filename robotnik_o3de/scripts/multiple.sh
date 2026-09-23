@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# spawn_multiple.sh
+# Launch one ROS 2 spawn launch per robot.  The caller's process group owns
+# shutdown, so this script deliberately does not install signal handlers or
+# kill child processes.
 set -Eeuo pipefail
 
 usage() {
@@ -23,7 +25,6 @@ dx="${3:-2.0}"
 dy="${4:-0.0}"
 x0="${5:-0.0}"
 y0="${6:-0.0}"
-run_rviz="${9:-false}"
 z="${7:-0.05}"
 yaw="${8:-0.0}"
 
@@ -35,17 +36,9 @@ pkg="robotnik_o3de"
 file="spawn_robot.launch.py"
 
 pids=()
-cleanup() {
-  echo "Stopping ${#pids[@]} launches..."
-  for pid in "${pids[@]}"; do kill -INT "$pid" 2>/dev/null || true; done
-  sleep 2
-  for pid in "${pids[@]}"; do kill -TERM "$pid" 2>/dev/null || true; done
-  sleep 2
-  for pid in "${pids[@]}"; do kill -KILL "$pid" 2>/dev/null || true; done
-}
-trap cleanup INT TERM
 
-# spawn
+# Spawn each robot in its own namespace.  Extra ROS launch arguments, for
+# example ``run_rviz:=true``, are propagated unchanged to every robot launch.
 for ((i=0;i<n;i++)); do
   name="${base}_$((i+1))"
   xi=$(python3 - <<PY
@@ -65,7 +58,7 @@ PY
     "${extra_args[@]}" &
   pids+=( "$!" )
 
-  # 3-second delay before next spawn
+  # Give the simulation time to register each spawned entity before the next.
   if (( i < n-1 )); then sleep 3; fi
 done
 

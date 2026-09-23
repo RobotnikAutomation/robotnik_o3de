@@ -38,7 +38,13 @@ def _wait_and_spawn(context, robot_id, robot, x, y, z, timeout_lc):
     rclpy.init(args=None)
     node = Node('wait_for_spawn_entity_service')
     client = node.create_client(SpawnEntity, '/spawn_entity')
-    client.wait_for_service(timeout_sec=timeout)
+    if not client.wait_for_service(timeout_sec=timeout):
+        node.destroy_node()
+        rclpy.shutdown()
+        raise RuntimeError(
+            f"Timed out after {timeout:.1f}s waiting for /spawn_entity to spawn "
+            f"robot '{robot_id.perform(context)}'."
+        )
     node.destroy_node()
     rclpy.shutdown()
 
