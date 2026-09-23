@@ -146,9 +146,9 @@ ros2 launch robotnik_o3de spawn_robot.launch.py robot_id:=robot_a robot:=rbwatch
 #### From Benchmark:
 
 ```bash
-cd ${HOME}/benchmark_ws
+cd /path/to/robotnik_sim_benchmark
 
-python3 ./scripts/benchmark_simulator.py --category 1 --iterations 1 --iteration_time 60 o3de
+python3 ./scripts/execute/run_benchmark.py --category 1 --iterations 1 --iteration_time 60 o3de
 ```
 
 ### Installation Issues Found
