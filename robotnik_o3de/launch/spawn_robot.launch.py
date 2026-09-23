@@ -27,28 +27,44 @@ def create_spawn_entity_cmd(robot_id, robot_model, x, y, z):
     ]
 
 def _wait_and_spawn(context, robot_id, robot, x, y, z, timeout_lc):
-    # wait for /spawn_entity
+    """Wait for O3DE's spawner without creating a service client.
+
+    The O3DE ROS2 spawner creates ``/spawn_entity`` while the level is loaded.
+    Creating a client before that server exists also creates the DDS request
+    topic.  With the O3DE gem this races with server creation and can make the
+    GameLauncher abort with an incompatible ``rq/spawn_entityRequest`` type.
+    Querying the ROS graph is passive, so wait for the advertised service first
+    and create the real client only in the subsequent ``ros2 service call``.
+    """
     import rclpy
     import time
     from rclpy.node import Node
-    from gazebo_msgs.srv import SpawnEntity
 
     timeout = float(timeout_lc.perform(context)) if timeout_lc else 60.0
 
     rclpy.init(args=None)
     node = Node('wait_for_spawn_entity_service')
-    client = node.create_client(SpawnEntity, '/spawn_entity')
-    if not client.wait_for_service(timeout_sec=timeout):
+    deadline = time.monotonic() + timeout
+    service_available = False
+    try:
+        while time.monotonic() < deadline:
+            services = dict(node.get_service_names_and_types())
+            service_types = services.get('/spawn_entity', [])
+            if 'gazebo_msgs/srv/SpawnEntity' in service_types:
+                service_available = True
+                break
+            time.sleep(0.1)
+    finally:
         node.destroy_node()
         rclpy.shutdown()
+
+    if not service_available:
         raise RuntimeError(
             f"Timed out after {timeout:.1f}s waiting for /spawn_entity to spawn "
             f"robot '{robot_id.perform(context)}'."
         )
-    node.destroy_node()
-    rclpy.shutdown()
 
-    #TODO: wait before spawning to ensure o3de is ready to accept the request
+    # Give the O3DE executor a moment to finish activating the advertised service.
     time.sleep(0.5)
 
     proc = ExecuteProcess(
