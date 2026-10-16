@@ -5,3 +5,10 @@
 _savebackup/
 **/__pycache__
 CMakeUserPresets.json
+backtrace.log
+imgui.ini
+
+# Generated ROS 2 workspace files
+/build/
+/install/
+/log/

@@ -1456,13 +1456,13 @@
                             "SensorConfiguration": {
                                 "Visualize": true,
                                 "Publishing Enabled": true,
-                                "Frequency (HZ)": 20.0,
+                "Frequency (HZ)": 100.0,
                                 "Publishers": {
                                     "sensor_msgs::msg::Imu": {
                                         "Type": "sensor_msgs::msg::Imu",
                                         "Topic": "imu/data",
                                         "QoS": {
-                                            "Reliability": 2,
+                      "Reliability": 1,
                                             "Durability": 2,
                                             "Depth": 5
                                         }
@@ -1855,9 +1855,9 @@
                         "Id": 17024940739607374599,
                         "CameraSensorConfig": {
                             "VerticalFieldOfViewDeg": 39.0,
-                            "Width": 1920,
-                            "Height": 1080,
-                            "Depth": false,
+                            "Width": 1280,
+                            "Height": 720,
+              "Depth": true,
                             "Color": true,
                             "ClipNear": 0.10000000149011612,
                             "ClipFar": 100.0
@@ -1865,29 +1865,29 @@
                         "SensorConfig": {
                             "Visualize": true,
                             "Publishing Enabled": true,
-                            "Frequency (HZ)": 10.0,
+              "Frequency (HZ)": 25.0,
                             "Publishers": {
                                 "Color Camera Info": {
                                     "Type": "sensor_msgs::msg::CameraInfo",
-                                    "Topic": "top_color_camera_info",
+                    "Topic": "top_rgbd_camera/color/camera_info",
                                     "QoS": {
-                                        "Reliability": 2,
+                      "Reliability": 1,
                                         "Durability": 2,
                                         "Depth": 5
                                     }
                                 },
                                 "Color Image": {
                                     "Type": "sensor_msgs::msg::Image",
-                                    "Topic": "topcamera_image_depth",
+                    "Topic": "top_rgbd_camera/color/image_raw",
                                     "QoS": {
-                                        "Reliability": 2,
+                      "Reliability": 1,
                                         "Durability": 2,
                                         "Depth": 5
                                     }
                                 },
                                 "Depth Camera Info": {
                                     "Type": "sensor_msgs::msg::CameraInfo",
-                                    "Topic": "top_depth_camera_info",
+                    "Topic": "top_rgbd_camera/depth/camera_info",
                                     "QoS": {
                                         "Reliability": 1,
                                         "Durability": 2,
@@ -1896,9 +1896,9 @@
                                 },
                                 "Depth Image": {
                                     "Type": "sensor_msgs::msg::Image",
-                                    "Topic": "top_camera_image_depth",
+                    "Topic": "top_rgbd_camera/depth/image_raw",
                                     "QoS": {
-                                        "Reliability": 2,
+                      "Reliability": 1,
                                         "Durability": 2,
                                         "Depth": 5
                                     }
@@ -2011,9 +2011,9 @@
                         "Id": 17136228099783912580,
                         "CameraSensorConfig": {
                             "VerticalFieldOfViewDeg": 39.0,
-                            "Width": 1920,
-                            "Height": 1080,
-                            "Depth": false,
+              "Width": 1920,
+              "Height": 1080,
+              "Depth": false,
                             "Color": true,
                             "ClipNear": 0.10000000149011612,
                             "ClipFar": 100.0
@@ -2021,13 +2021,13 @@
                         "SensorConfig": {
                             "Visualize": true,
                             "Publishing Enabled": true,
-                            "Frequency (HZ)": 10.0,
+              "Frequency (HZ)": 25.0,
                             "Publishers": {
                                 "Color Camera Info": {
                                     "Type": "sensor_msgs::msg::CameraInfo",
                                     "Topic": "front_rgbd_camera/color/camera_info",
                                     "QoS": {
-                                        "Reliability": 2,
+                      "Reliability": 1,
                                         "Durability": 2,
                                         "Depth": 5
                                     }
@@ -2037,24 +2037,6 @@
                                     "Topic": "front_rgbd_camera/color/image_raw",
                                     "QoS": {
                                         "Reliability": 1,
-                                        "Durability": 2,
-                                        "Depth": 5
-                                    }
-                                },
-                                "Depth Camera Info": {
-                                    "Type": "sensor_msgs::msg::CameraInfo",
-                                    "Topic": "depth_camera_info",
-                                    "QoS": {
-                                        "Reliability": 2,
-                                        "Durability": 2,
-                                        "Depth": 5
-                                    }
-                                },
-                                "Depth Image": {
-                                    "Type": "sensor_msgs::msg::Image",
-                                    "Topic": "camera_image_depth",
-                                    "QoS": {
-                                        "Reliability": 2,
                                         "Durability": 2,
                                         "Depth": 5
                                     }

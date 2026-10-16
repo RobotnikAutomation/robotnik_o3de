@@ -3,6 +3,10 @@
 > **⚠️ Work in Progress**  
 > This repository is currently under development and is intended for evaluation and benchmarking purposes. The primary goal is to assess O3DE's simulation capabilities and compare them with other simulation environments like Gazebo.
 
+> **Benchmark scope:** the current Robotnik O3DE integration is maintained as
+> a benchmark backend. It should not yet be considered a complete,
+> production-ready Robotnik simulation stack.
+
 ## 📋 Overview
 
 `robotnik_o3de` leverages the Open 3D Engine (O3DE) to create realistic simulations of Robotnik robots. This package provides tools and resources to simulate robot behavior, sensor data, and interactions within a virtual environment for benchmarking and comparative analysis.
@@ -142,9 +146,9 @@ ros2 launch robotnik_o3de spawn_robot.launch.py robot_id:=robot_a robot:=rbwatch
 #### From Benchmark:
 
 ```bash
-cd ${HOME}/benchmark_ws
+cd /path/to/robotnik_sim_benchmark
 
-python3 ./scripts/benchmark_simulator.py --category 1 --iterations 1 --iteration_time 60 o3de
+python3 ./scripts/execute/run_benchmark.py --category 1 --iterations 1 --iteration_time 60 o3de
 ```
 
 ### Installation Issues Found

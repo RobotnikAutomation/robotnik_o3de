@@ -1,0 +1,24 @@
+{
+    "SimulationInterfaces": {
+        "PrintStateNameInGui": true,
+        "StartInStoppedState": false,
+        "KeyboardTransitions":
+        {
+            "StoppedToPlaying": "keyboard_key_alphanumeric_R",
+            "PausedToPlaying": "keyboard_key_alphanumeric_R",
+            "PlayingToPaused": "keyboard_key_alphanumeric_P"
+        }
+    },
+    "ROS2SimulationInterfaces": {
+        "GetEntities": "custom_get_entities_service",
+        "GetSimulatorFeatures": ""
+    },
+    "O3DE": {
+        "ROS2": {
+            "HandlersNames": {
+                "SpawnEntity": "simulation_interfaces/spawn_entity",
+                "DeleteEntity": "simulation_interfaces/delete_entity"
+            }
+        }
+    }
+}
